@@ -12,7 +12,13 @@ body {
     justify-content: center;
     /* This centers our sketch vertically. */
     align-items: center;
+    background: url("http://getwallpapers.com/wallpaper/full/0/5/1/650644.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-.sketch-holder{
+
+.sketch-holder {
     border-radius: 10px;
 }

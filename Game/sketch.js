@@ -29,7 +29,7 @@ function mousePressed() {
 
 function draw() {
   background(50);
-
+  tint(20);  
   if (s.eat(food)) {
     pickLocation();
   }
@@ -42,8 +42,7 @@ function draw() {
   s.update();
   s.show();
 
-
-  fill(255, 0, 100);
+ fill(255, 0, 100);
   rect(food.x, food.y, scl, scl);
 }
 
