@@ -53,6 +53,6 @@ function Snake() {
       for (var i = 0; i < this.tail.length; i++) {
         rect(this.tail[i].x, this.tail[i].y, scl, scl);
       }
-      rect(this.x, this.y, scl, scl);
+      rect(this.x,this.y, scl, scl);
     }
   }
